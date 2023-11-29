@@ -7,6 +7,14 @@ AllCops:
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"
+    - "app/channels/**/*"
+    - "app/controllers/**/*"
+    - "app/helpers/**/*"
+    - "app/jobs/**/*"
+    - "app/mailers/**/*"
+    - "app/models/**/*"
+    - "test/**/*"
+    - "config.ru"
 
   DisplayCopNames: true
 
