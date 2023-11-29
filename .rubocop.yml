@@ -15,6 +15,7 @@ AllCops:
     - "app/models/**/*"
     - "test/**/*"
     - "config.ru"
+    - "Gemfile"
 
   DisplayCopNames: true
 
