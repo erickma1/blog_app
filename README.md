@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To_Do_List] <a name="about-project"></a>
+# 📖 [Blog App] <a name="about-project"></a>
 
 **[Blog App]** is an blog app which the user can write posts, comments and like on posts.
 

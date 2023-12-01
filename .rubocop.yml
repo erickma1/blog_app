@@ -12,7 +12,6 @@ AllCops:
     - "app/helpers/**/*"
     - "app/jobs/**/*"
     - "app/mailers/**/*"
-    - "app/models/**/*"
     - "test/**/*"
     - "config.ru"
     - "Gemfile"
