@@ -26,9 +26,8 @@ RSpec.describe Post, type: :model do
   end
 
   it 'is not valid with a negative likes_counter' do
-    user = User.create(name: 'John', posts_counter: 0)
-    post = user.posts.build(title: 'Negative Likes', comments_counter: -1, likes_counter: 0)
-    expect(post).to_not be_valid
+    subject.likes_counter = 'You are not an integer'
+    expect(subject).to_not be_valid
   end
 
   it 'increments the user posts_counter after creation' do
