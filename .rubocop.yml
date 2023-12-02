@@ -15,6 +15,7 @@ AllCops:
     - "test/**/*"
     - "config.ru"
     - "Gemfile"
+    - "spec/**/*"
 
   DisplayCopNames: true
 
