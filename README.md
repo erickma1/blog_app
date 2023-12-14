@@ -105,7 +105,7 @@ it will run the the server on localhost:3000
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Garvin Chimone**
+👤 **Garvin Chimonei**
 
 - GitHub: [@Chimoneg27](https://github.com/Chimoneg27)
 - Twitter: [@GarvinChimone](https://twitter.com/GarvinChimone)
