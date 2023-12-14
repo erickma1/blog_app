@@ -11,7 +11,7 @@ RSpec.feature 'User index page', type: :feature do
     # Create some posts for each user
     FactoryBot.create_list(:post, 2, author: user1)
     FactoryBot.create_list(:post, 3, author: user2)
-    FactoryBot.create_list(:post, 1, author: user3)
+    FactoryBot.create_list(:post, 1, author: user3)                                          
     FactoryBot.create_list(:post, 4, author: user4)
 
     visit users_path
