@@ -39,5 +39,8 @@ RSpec.feature 'User index page', type: :feature do
 
     # Check if the page is redirected to the user's show page
     expect(page).to have_current_path(user_path(user1))
+
+    first('h4 a').click
+    expect(page).to have_current_path(user_post_path(user, user.posts.first))
   end
 end
